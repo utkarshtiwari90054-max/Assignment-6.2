@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cards, Backgrounds, Borders and Display</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-header">
+    <h1>Choose your plan</h1>
+    <p>Three card designs with different backgrounds, borders and rounded corners.</p>
+  </header>
+
+  <main>
+    <section class="cards">
+      <article class="card card-basic">
+        <h2 class="card-title">Basic</h2>
+        <p class="card-desc">For students starting out. Includes 5 projects and community support.</p>
+        <a href="#" class="btn btn-basic">Choose Basic</a>
+      </article>
+
+      <article class="card card-standard">
+        <h2 class="card-title">Standard</h2>
+        <p class="card-desc">For regular learners. Includes 20 projects, code reviews and workshops.</p>
+        <a href="#" class="btn btn-standard">Choose Standard</a>
+      </article>
+
+      <article class="card card-premium">
+        <h2 class="card-title">Premium</h2>
+        <p class="card-desc">For serious builders. Unlimited projects, mentoring and priority events.</p>
+        <a href="#" class="btn btn-premium">Choose Premium</a>
+      </article>
+    </section>
+
+    <section class="display-demo">
+      <h2>Display: block, inline and inline-block</h2>
+
+      <h3>block: takes the full width and starts on a new line</h3>
+      <div class="demo-block">Block 1 (width: 50%)</div>
+      <div class="demo-block">Block 2 (stacked, even though it is narrow)</div>
+
+      <h3>inline: flows with text, ignores width and height</h3>
+      <p>
+        Use inline for words inside a sentence, like this
+        <span class="demo-inline">highlighted phrase</span> that keeps its place in the line
+        even though it has <code>width: 300px</code> and <code>height: 80px</code> set.
+      </p>
+
+      <h3>inline-block: sits in a line but accepts width, height and padding</h3>
+      <p>
+        <span class="demo-inline-block">Tag one</span>
+        <span class="demo-inline-block">Tag two</span>
+        <span class="demo-inline-block">Tag three</span>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
